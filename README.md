@@ -1,19 +1,28 @@
 # hello-word-worker
 
 #### 介绍
+
 hello-word-worker cloudflare
 
 #### 软件架构
-软件架构说明
 
+软件架构说明
 
 #### 安装教程
 
-
+```
+yarn install
+```
 
 #### 使用说明
 
+```
+yarn start
+```
 
+```
+yarn publish
+```
 
 #### 参与贡献
 
@@ -21,4 +30,3 @@ hello-word-worker cloudflare
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
