@@ -496,10 +496,10 @@ urlpattern-polyfill@^4.0.3:
   resolved "https://registry.yarnpkg.com/urlpattern-polyfill/-/urlpattern-polyfill-4.0.3.tgz#c1fa7a73eb4e6c6a1ffb41b24cf31974f7392d3b"
   integrity sha512-DOE84vZT2fEcl9gqCUTcnAw5ZY5Id55ikUcziSUntuEFL3pRvavg5kwDmTEUJkeCHInTlV/HexFomgYnzO5kdQ==
 
-wrangler@2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-2.0.9.tgz#bf4dc8a6a710fc8caa3d85b13e71a23dbde1a270"
-  integrity sha512-qRmjOHQKUaylxQFjVt0IniY5tu/KFi4BWwSm7C33Lr7oQNSC/ANUn9K8wJew9DtrnTw7arhhK1qbGAxB/IEo+w==
+wrangler@2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-2.0.11.tgz#d240f6ca3d55344e69a95cb6ca76f0ad869d421e"
+  integrity sha512-wRofP6GvpzZxCmqG1sLpdkHLFIv95oiv8KXyoO1eYGZ7izIhnfEt1kMPA9WguBgojDCw0+9xebhp/rOp8lYBtA==
   dependencies:
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.1.4"
