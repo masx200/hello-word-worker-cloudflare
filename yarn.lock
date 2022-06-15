@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@cloudflare/kv-asset-handler@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.2.0.tgz#c9959bbd7a1c40bd7c674adae98aa8c8d0e5ca68"
+  integrity sha512-MVbXLbTcAotOPUj0pAMhVtJ+3/kFkwJqc5qNOleOZTv6QkZZABDMS21dSrSlVswEHwrpWC03e4fWytjqKvuE2A==
+  dependencies:
+    mime "^3.0.0"
+
 "@cloudflare/workers-types@^3.11.0":
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-3.11.0.tgz#8067dede888ea495cae06898d5e75e4401acf435"
@@ -369,6 +376,11 @@ magic-string@^0.25.3:
   dependencies:
     sourcemap-codec "^1.4.8"
 
+mime@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-3.0.0.tgz#b374550dca3a0c18443b0c950a6a58f1931cf7a7"
+  integrity sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==
+
 miniflare@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/miniflare/-/miniflare-2.5.0.tgz#befe1e5cf598f9b6e67af74669747e9730b27da7"
@@ -496,11 +508,12 @@ urlpattern-polyfill@^4.0.3:
   resolved "https://registry.yarnpkg.com/urlpattern-polyfill/-/urlpattern-polyfill-4.0.3.tgz#c1fa7a73eb4e6c6a1ffb41b24cf31974f7392d3b"
   integrity sha512-DOE84vZT2fEcl9gqCUTcnAw5ZY5Id55ikUcziSUntuEFL3pRvavg5kwDmTEUJkeCHInTlV/HexFomgYnzO5kdQ==
 
-wrangler@2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-2.0.9.tgz#bf4dc8a6a710fc8caa3d85b13e71a23dbde1a270"
-  integrity sha512-qRmjOHQKUaylxQFjVt0IniY5tu/KFi4BWwSm7C33Lr7oQNSC/ANUn9K8wJew9DtrnTw7arhhK1qbGAxB/IEo+w==
+wrangler@2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-2.0.12.tgz#506af20c67aa2b8dbed480713f1103814a943d08"
+  integrity sha512-Dnzqxl3vW5J16Lt3gEbl/teNnTuAqMwsuMexR7BFSHWTwfWjHT9Sc7B6bPIKw0O01zDU/hUscw8nkyhMMM3xDw==
   dependencies:
+    "@cloudflare/kv-asset-handler" "^0.2.0"
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
     "@esbuild-plugins/node-modules-polyfill" "^0.1.4"
     blake3-wasm "^2.1.5"
