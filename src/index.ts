@@ -33,7 +33,9 @@ export default {
         method,
         headers: Object.fromEntries(headers),
       }),
-      { headers: { "content-type": "application/json" } }
+      { headers: { 
+        "Strict-Transport-Security" :"max-age=31536000",
+        "content-type": "application/json" } }
     );
   },
 };
