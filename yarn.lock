@@ -503,15 +503,15 @@ typescript@^4.7.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
 
-undici@5.5.1, undici@^5.5.1, undici@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.6.0.tgz#3fd695d4454970bae3d151326ee4ab645b8d1962"
-  integrity sha512-mc+8SY1fXubTrdx4CXDkeFFGV8lI3Tq4I/70U1V8Z6g4iscGII0uLO7CPnDt56bXEbvaKwo2T2+VrteWbZiXiQ==
+undici@5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.5.1.tgz#baaf25844a99eaa0b22e1ef8d205bffe587c8f43"
+  integrity sha512-MEvryPLf18HvlCbLSzCW0U00IMftKGI5udnjrQbC5D4P0Hodwffhv+iGfWuJwg16Y/TK11ZFK8i+BPVW2z/eAw==
 
-undici@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.6.0.tgz#3fd695d4454970bae3d151326ee4ab645b8d1962"
-  integrity sha512-mc+8SY1fXubTrdx4CXDkeFFGV8lI3Tq4I/70U1V8Z6g4iscGII0uLO7CPnDt56bXEbvaKwo2T2+VrteWbZiXiQ==
+undici@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.6.1.tgz#7e5c56d15032d06738358dea433f98130e2a0561"
+  integrity sha512-yYVqywdCbNb99f/w045wqmv++WExXDjY0FEvLSB7QUZZH6izxrVkF4dJn1aimcvN0+WAhv75Gg7v6VJoqmRtJQ==
 
 urlpattern-polyfill@^4.0.3:
   version "4.0.3"
