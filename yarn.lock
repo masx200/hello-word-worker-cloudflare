@@ -624,10 +624,10 @@ urlpattern-polyfill@^4.0.3:
   resolved "https://registry.yarnpkg.com/urlpattern-polyfill/-/urlpattern-polyfill-4.0.3.tgz#c1fa7a73eb4e6c6a1ffb41b24cf31974f7392d3b"
   integrity sha512-DOE84vZT2fEcl9gqCUTcnAw5ZY5Id55ikUcziSUntuEFL3pRvavg5kwDmTEUJkeCHInTlV/HexFomgYnzO5kdQ==
 
-wrangler@^2.0.24:
-  version "2.0.24"
-  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-2.0.24.tgz#8f8a203896d00964731c0ab1c3285c9164fd3715"
-  integrity sha512-I43FZzbzSApcgha30E0XEdd5B2dW7BVHFc5SRu/zVLjtY0AwAJctuOz9v5RVKOAjbj8mLvSXCdcZoBCK/7Oi/g==
+wrangler@^2.0.25:
+  version "2.0.25"
+  resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-2.0.25.tgz#e150806c49f30e7f5b76310a06aec0d6f8eb607c"
+  integrity sha512-6dVB3fw8puP93PnVkIUPNeu61kRqnLFDPknvIDDrICbu1GweE/iIkHRqmXqSD/IWA9JyMXmyYcPjqlYqcbwX2g==
   dependencies:
     "@cloudflare/kv-asset-handler" "^0.2.0"
     "@esbuild-plugins/node-globals-polyfill" "^0.1.1"
